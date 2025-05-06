@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 6005837714680015584}
   - component: {fileID: 5122716839372163544}
   - component: {fileID: 3373308446994857490}
+  - component: {fileID: 5293447096746160058}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Player
@@ -266,6 +267,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDir: {x: 0, y: 0}
+  onBombP:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &5122716839372163544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,3 +308,16 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5293447096746160058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8323213779920905037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ab46b0b84eaf84799611b516ab5572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombprefab: {fileID: 6937425534414197311, guid: 234e6ad7c4a2dcd4e8591d4a15c4b79b, type: 3}
