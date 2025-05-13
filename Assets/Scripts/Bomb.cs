@@ -80,4 +80,9 @@ public class Bomb : MonoBehaviour
     {
         gameObject.SetActive(false);
     }
+
+    public void SetBombRange(int range)
+    {
+        this.range = range * gridOffSet;
+    }
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8314998704948611847}
   - component: {fileID: 5143226483374726565}
   - component: {fileID: 4730326157367363091}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 5122716839372163544}
   - component: {fileID: 3373308446994857490}
   - component: {fileID: 5293447096746160058}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Personaje
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -321,3 +321,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bombprefab: {fileID: 6937425534414197311, guid: 234e6ad7c4a2dcd4e8591d4a15c4b79b, type: 3}
+  bombPoolParent: {fileID: 0}
+  maxBombs: 1
+  bombRange: 1
