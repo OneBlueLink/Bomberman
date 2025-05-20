@@ -25,4 +25,12 @@ public class MovementController : MonoBehaviour
         
     }
 
+    public void DisablePlayer()
+    {
+        GetComponent<PlayerBombManager>().enabled = false;
+        characterController.enabled = false;
+        GetComponent<MeshRenderer>().enabled = false;
+        this.enabled = false;
+    }
+
 }
